@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    maximum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="D:\Py\Project_1\static\style.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/a993c5d899.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Scitech</title>
+  </head>
+
+  <body id="body-about">
+    <header id="header-about">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid col-sm-10">
+          <a class="navbar-brand" href="D:\Py\Project_1\index.html">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARxJREFUWEftl7sNwjAQhu+UDEBHIsVeAdiAEWADNiFMAmzABjACTBDkFIGKGooYIVGYvOycMAThtL7Hr+9ytn6Ejn3YMT3gBOkmUkvoLMQEEAe6ApTzHPEYRtG6Krck6JIkvavvbwFgSGnWImcfMDYqxpcEZULMEHHZojA5FKWc9jnfqAXKgtI0RoA5uUuLRAmwCBmL/0NQwJj2CjmlqVRpWCXkBLX4V19CVXIfHVmdYCdIN0pH6CuEmrDrBDWdky9GJ0jFmlW89o7QTxOq25riO2WyfW/ZMieoastM8FNiyCOjNDPJMRPUNRv0NIo7ALDiWhVyh4CxkhmtdAoPUTfPG+eIdtyrlMeQ85WRlTaZvc0YrZey2dwRotC9A7Gt9SVe0BAkAAAAAElFTkSuQmCC"
+            />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler bg-light"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="D:\Py\Project_1\index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="D:\Py\Project_1\templates\knowledge.html"
+                  >Knowledge</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="D:\Py\Project_1\templates\about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <div class="switch" style="margin-bottom: 0px; margin-top: 6px">
+                  <input type="checkbox" onclick="darkMode()" />
+                  <div class="left"></div>
+                  <div class="right"></div>
+                  <div class="switcher"></div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 col-xs-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid header-title">
+        <div class="row">
+          <div class="col">
+            <p class="title">Explore<span> The News</span></p>
+            <p>
+              Stories are posted daily, selected from press materials provided
+              by hundreds of sources from around the world.
+            </p>
+            <p>
+              We hope you enjoy the news and make it one of your regularly
+              visited web sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-about">
+      <div class="container-fluid about-info">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="bx bx-fingerprint"></i>
+                    <h6 class="card-title">Upskill Intelligence</h6>
+                    <p class="card-text">
+                      Training your memory, executive control, and visuospatial
+                      reasoning can help to boost your intelligence levels
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="bx bxs-hot"></i>
+                    <h6 class="card-title">Hottest News</h6>
+                    <p class="card-text">
+                      Training your memory, executive control, and visuospatial
+                      reasoning can help to boost your intelligence levels
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="bx bx-code-alt"></i>
+                    <h6 class="card-title">Code Skilling</h6>
+                    <p class="card-text">
+                      Future Skill is a fun way to improve your code, learn new
+                      programming languages and compare your results with your
+                      programming peers
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="bx bxs-customize"></i>
+                    <h6 class="card-title">Connects Better with Technology</h6>
+                    <p class="card-text">
+                      It's important to remember the people who reside closest
+                      to our hearts: family, friends, and loved ones. Technology
+                      helps us connect
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="about-us">
+          <h2>About Us</h2>
+          <i class="fa-solid fa-grip-lines"
+            ><i class="fa-solid fa-grip-lines"></i
+          ></i>
+          <p>
+            We are a global platform to educate and provide information about
+            the application of technology around the world. With information and
+            professional writers who will add to your knowledge. Technology is a
+            science that will continue to grow, and so will you. With this
+            platform, it is hoped that it can have a positive impact in terms of
+            knowledge and motivate people to always develop and benefit the
+            world.
+          </p>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="meo">
+                  <p>
+                    <i class="fa-solid fa-grip-lines"></i>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ratione error explicabo facere temporibus praesentium
+                    laborum quae! Beatae, porro? Facere aut at ipsum perferendis
+                    odit quae obcaecati labore quo cum expedita.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="row detail9 row-cols-1 row-cols-md-1 g-4">
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 9px">
+                <strong>SCITECH FOR BETTER TOMORROW</strong>
+              </p>
+              <p class="card-text">
+                Technology is a science that will continue to grow, and so will
+                you
+              </p>
+              <p class="card-text">&copy 2023 Ansya Agatha</p>
+              <div class="row social-media">
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-facebook" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-instagram" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-linkedin" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-twitter" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-text">Learn more</h6>
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="D:\Py\Project_1\index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="D:\Py\Project_1\templates\about.html"
+                >About us</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >Help</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-text">Support</h6>
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >FAQ</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >License</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h6>
+                <br />
+                <a
+                  class="nav-link"
+                  style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                  aria-current="page"
+                  href="#"
+                  >Terms of Service</a
+                >
+              </h6>
+              <h6>
+                <a
+                  class="nav-link"
+                  style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                  aria-current="page"
+                  href="#"
+                  >Privacy Policy</a
+                >
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/a993c5d899.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+      integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="D:\Py\Project_1\js\script.js"></script>
+    <script>
+      $(function () {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          items: 3,
+          itemsDesktop: [1199, 2],
+          itemsDesktopSmall: [980, 2],
+          itemsMobile: [575, 1],
+          pagination: false,
+          autoplayHoverPause: false,
+          video: true,
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          dots: false,
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="D:\Py\Project_1\static\style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Scitech</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid col-sm-10">
+          <a class="navbar-brand" href="D:\Py\Project_1\index.html">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARxJREFUWEftl7sNwjAQhu+UDEBHIsVeAdiAEWADNiFMAmzABjACTBDkFIGKGooYIVGYvOycMAThtL7Hr+9ytn6Ejn3YMT3gBOkmUkvoLMQEEAe6ApTzHPEYRtG6Krck6JIkvavvbwFgSGnWImcfMDYqxpcEZULMEHHZojA5FKWc9jnfqAXKgtI0RoA5uUuLRAmwCBmL/0NQwJj2CjmlqVRpWCXkBLX4V19CVXIfHVmdYCdIN0pH6CuEmrDrBDWdky9GJ0jFmlW89o7QTxOq25riO2WyfW/ZMieoastM8FNiyCOjNDPJMRPUNRv0NIo7ALDiWhVyh4CxkhmtdAoPUTfPG+eIdtyrlMeQ85WRlTaZvc0YrZey2dwRotC9A7Gt9SVe0BAkAAAAAElFTkSuQmCC"
+            />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler bg-light"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="D:\Py\Project_1\index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="D:\Py\Project_1\templates\knowledge.html"
+                  >Knowledge</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="D:\Py\Project_1\templates\about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <div class="switch" style="margin-bottom: 0px; margin-top: 6px">
+                  <input type="checkbox" onclick="darkMode()" />
+                  <div class="left"></div>
+                  <div class="right"></div>
+                  <div class="switcher"></div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 col-xs-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row row-knowledge">
+          <div class="col-md-6 col-knowledge">
+            <h1>SCIENCE TECHNOLOGY</h1>
+            <p>
+              Information systems to help you understand what technology can do
+              for you today and tomorrow. Technology has the ability to help us
+              in many ways, including making life easier. These are specially
+              combined and will help you to know more about the real meaning and
+              importance of technology. Technology is a science that will
+              continue to grow, and so will you
+            </p>
+            <button type="button" class="btn">Register</button>
+            <button type="button" class="btn lm-knowledge">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 trend-kn">
+            <h5 class="card-title">Trending <span>News</span></h5>
+            <div class="card p-3 mb-5 bg-body rounded card-kn">
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Inventing Tech Which Uses One Machine to Treat Cancer
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    What Chatbot Bloopers Reveal About the Future of AI
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    These Algorithms Are Hunting for an EV Battery Mother Lode
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Why DeepMind Is Sending AI Humanoids to Soccer Camp
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">Combining Medicine and Technology</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card p-3 mb-5 bg-body rounded card-kn">
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Efficient Technique Improves Machine-Learning Models
+                    Reliability
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Ingestible Sensor Could Help Doctors Pinpoint GI
+                    Difficulties
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Scientists Boost Quantum Signals While Reducing Noise
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Automating The Math for Decision-Making
+                  </div>
+                </div>
+              </a>
+              <a class="nav-link list-trend-kn" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="card-text">
+                    Using Robotics to Supercharge Health Care
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-7 headline-title">
+            <h5 class="card-title">Todays <span>Headlines</span></h5>
+              <img src="D:\Py\Project_1\static\img\image1.jpg" class="img-fluid rounded img-headline" />
+              <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News of the day</span>
+              <a class="nav-link" aria-current="page" href="#">
+                <h4><strong>| What is The Definition of Technology?</strong></h4>           
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="row category-knowledge-row container-fluid row-cols-2 row-cols-lg-4 row-cols-md-2 g-1">
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAINJREFUSEvtk8sRgCAMRB9FaH9WYQ1WYX/ahBcOOBNIBhO5wHk/ZDdJBL8UrM80UBMuI9qAIzN24GywJazILw0uYMmiN7A2DCSsyP/VIDwitbAegHYHtanM02oGteLNCzHcIDyinl5fHM9LFj/jeWjjDcy7DZix2pq6lvxZTBKYE6ixPuVHOBmAvFi3AAAAAElFTkSuQmCC"/>
+                          <h6 class="card-title">
+                            AI
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPFJREFUSEvFlW0RwjAQRF8dIAEHgAKQgANAAVpQADhAAjgAB0jAAcx2Qidt03y0DeRX0pvuy17ukoLMo8isz98Aa2ADzI3DJ3AALmat+B6YmvUdOFvxKjFNBxPgCEjANa7m46ojrg3sgNc33gRoJ7OB5yKNhQuwNbsfqF/+LhcnTWwHsr8cQx24AWUabcB7JPFadn4KyJ6i7Ies3I1Rpg+rQVtXhRpNqerbCxJX9XQ2mlz0hbTEm2VqV2kqxCnuA6Q46RQPAWIgXvEYgA8SFI8FuCBR4ikAG6J5rRR9d1jqk6nq0qjqPHRBpgJCeq14dsAHaAYwGXy+lBAAAAAASUVORK5CYII="/>
+                          <h6 class="card-title">
+                            Medical
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXdJREFUSEu1ldExBTEUhr9bAR2gAlRACVTAMw/oQAd44BUVoAQVoAM6oALmm8m5k92b7G6uuZnZh90k//fnnJOzM1Y8ZivWZwrgGNgDdtKjp/f0PAMvQyaHAAfAFbA5cspP4AIQtjBqgGvgrDF87hHUGSXAMuIhegOc54Q+wLA8NTrvLz/Mw9UHGM+NfwLU2AqNHGC13AM/wFoF4txlcqjQOrCfvm1ne+anyAEPwFFKlGVoLN0s7Atw3vx8V+AadI+gR8D3zj1Q1MndVOPLRMq78pb2q9MB/CbF/FS3wAlwB5z2iLW5jk4uVgLEt74Z32tzVUApRK0niBB9RFupJdlkLjNMsu2lmOS4ZJ06bqTEPSqWqVqxwJ7Seopwb0nPG+RQq2gp14i9JgdbhQvyZqcrG9jQCOeuGW12IZRDDJvvr9kF1LE/IcUjHAvipdrOnZp0hceanzEX1PTD6YOE6ToamnXuvVG0KFzqpo0VOW35lJ/+NKXKqj8AaFUZUiVAzwAAAABJRU5ErkJggg=="/>
+                          <h6 class="card-title">
+                            Humanware
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUpJREFUSEu1lWFRAzEQhb8qABSAg4IDcIADQEHBQeugDgAFgALAQSWAA1AA85jkZtnmsrlAM9MfaZL3bXbz9mbseMx2rM9fAEfAHDh2QW6AV+BD//cA9oFb4Lxy+zPgpQegaJ8BQWrjBlhPBbSKS3cFLKcASuJPKUqtSWzPXGkSoCT+CajIP4UE7oCLFsApsEiHJfyW8u1zrpdyYgRV8AczLxbZRxFZJIsILnEFl8dB6ZkqYj0tm8sIov1KlX553AOXeeJ90AOxQfjaFI3WC5G40qT6DGPMyVMhRfHIB62QUfEIoPUIUhUfA+i5fgFXKZE1iPfD1qvzNVCR1MyyO1sg1Y7sF73ZNK9B1PetwcIbqDUcpl3vwDXwaE75dP0yVcmV/gYCKK9yqKLPzcyetWkces6Y5Xu+aNJSKxBoaAn/DYh6VOjkZoFo4zdMuEQZqngszAAAAABJRU5ErkJggg=="/>
+                          <h6 class="card-title">
+                            Aerospace
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfNJREFUSEu1ld1VFEEQhb+NQIxAiQCNAIlAiQCNQI0AjECIAIlAiACIQI1AM1Aj0PNx6nJqe2d34GH7ZWd6uuv+1O3eBVseiy3XZxPAc+A98AJ41Yh8B34BN8BVPa/lOQWwA3wG3j5Q3SnwCfgztX4EsPh1sf4LXAJfAFlbwO8qUt0b4HUVVdFhrVvCGQFkoy0/SoGFLbpfhQVx7raqCCSJvSJwMIJ0ABf/BGSu5xbSJu0SpA8Za4vqHP4eFcjL3pcOcAIcAxdVWAu+VgEVyVQgwWVsIUlk2HSV+quSu9EBssCPPsvyWTEVvA/V+j2B+Nh64WMc2Ajwb4KEQCoJ81gT1gZA4PtErVNggd+18GkBxTI3p5kqsOAT4F3ryb3aDiAzY2fcwlKvs9FiMnVOAoII1oF3x/PQAT5UYsYmj4wDcga4x5H+raiYiqkbkpCo6oz1+VsVlrEWGefzUubeSYuczEFLwbDTls44zY1a16nUXgR0JaZOxOccMuc640Q4h9KiCUFAjaxEJwECkpgl7zmE/RBpi0QS2djkDWvj1wLkW/xPMhLH8QRnfVR56lU9CxDJ8T79ybsFvae8u3K1a/HStb3pD8fj7tXtzelz3rVEFeN7D8/aFI2Lxuti7n0FZO4/ea7g1H21BDIHMCn7MZNbB/gP73mRGd/N1VwAAAAASUVORK5CYII="/>
+                          <h6 class="card-title">
+                            Forensic
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALdJREFUSEvtld0NwjAMhL9OwgjAJh0FJoCRGIVuUCYBFbUof27OkfpS0cfqfHexL07Hxl+3MT+KwHs2kWKt/5Hn/Qr0wA04iTMagSvwSPFWi6aCg0i+wJ7AWRVYBujUyEMTnqCV1DLx5VYFrFaumcoEQidpoSqQ4ZoLZzdVI/sSqA6sEJdqjZoi7334JVSdgSogp6hlVQyl3WWdYFp2d+AoWn8BF8+yK126/4MjdtsJU95kJ2UM/wDMyyYZffca4AAAAABJRU5ErkJggg=="/>
+                          <h6 class="card-title">
+                            Quantum
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAS9JREFUSEvtldFNw0AQRF8qIFQAHSQlQAVQQjoAKoBUEOiAEqACKAE6gA6gAqJn7Unrc4IVHH8gZX9s+W5ndmfnzhNGjsnI+BwIehX+TaJLYAacAVNgXqG9AV/AK+D78ya2mkCgK+A6QHsrTBskuwcegrhZygSnwAvgc0h8AOeAzxbBE3AxBDnlKpcStwh+9gReYBp1skSjd6BbHoGTgZ18AotwV6sDHXAXDtJFRzsSfYeLMk5nBi4uw2YOSe+Xc+CZyPFenQMl1ua3UWRnBtpKefTz8Y7Vl+3m2rkyNXbPQ1aWVews33WWJ9VET6vdGUppR1Zsh3m/6zchV+c2lcRkE43aujVQy5JRiPlK3cSmu0hwK/4LQc7dSlDLny87qysS5ctu68gOP5xeN/9/idZa3TsZkB6swAAAAABJRU5ErkJggg=="/>
+                          <h6 class="card-title">
+                             Blockchain
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card category-knowledge shadow bg-body rounded">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <div class="card-body category-knowledge-body">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASdJREFUSEu1lI1RwkAUhD86sAO1ArUCKYEOpAOwEu1ArYASxA6kAqAD7YD5ZhI8Qy73A3kzmclM8nbf7e67CSPXZGR8agnugbdmuIehIWsIpsAKuAL2wM0lCZbASwD4DLxeiuAdeArAfpvpf84lUIpPQN3D+gDmqZCkPBBUcEm6dQvsziFwOvXuA/8CNDtZsRNo3GKg+xvQE4l8j1aXwGnN9yw52t8PmrxunhPCLoHT3BWA9/0qxnH5xiDYhInr88DN1MD2uS44kdF1GY+7kYqp2C2hjTH5XDq/a/y/yiGwQfO3kcgqiZHuTVMuQSy2J5LUnECJnD6sqCQ1BGb8MWgclKSUwCR5F7WVlKSUwMvMmGZLUkrQJiOaktSO5KYohZN92VUDxRoPh6U1GVcbEykAAAAASUVORK5CYII="/>
+                          <h6 class="card-title">
+                            Electrical
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="container">    
+          <div class="row">
+            <div class="videos-title">
+              <h5 class="card-title">Videos <span>Headlines</span></h5>
+            </div>
+            <div class="col-md-12">
+              <div id="videos-slider" class="owl-carousel">
+                <div class="post-slide2">
+                  <div class="post-content">
+                    <div class="ratio ratio-16x9">
+                      <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/Cx5aNwnZYDc" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loop="true" 
+                        style="border-radius: 10px">
+                      </iframe>
+                    </div>
+                    <div class="card-text">
+                      <span>Featured Video</span>
+                      <a aria-current="page" href="https://www.youtube.com/embed/Cx5aNwnZYDc">
+                        <h6><strong>How Will Artificial Intelligence and Internet of Things Change The World?</strong></h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="post-slide2">
+                  <div class="post-content">
+                    <div class="ratio ratio-16x9">
+                      <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/YSQRWOy2Om4" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loop="true" 
+                        style="border-radius: 10px">
+                      </iframe>
+                    </div>
+                    <div class="card-text">
+                      <span>Featured Video</span>
+                      <a aria-current="page" href="https://www.youtube.com/embed/YSQRWOy2Om4">
+                        <h6><strong>How AI Could Change the Future of Medicine</strong></h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="post-slide2">
+                  <div class="post-content">
+                    <div class="ratio ratio-16x9">
+                      <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/St76QFAjwXY" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loop="true" 
+                        style="border-radius: 10px">
+                      </iframe>
+                    </div>
+                    <div class="card-text">
+                      <span>Featured Video</span>
+                      <a aria-current="page" href="https://www.youtube.com/embed/St76QFAjwXY">
+                        <h6><strong>How Will Quantum Technology Change Our Lives?</strong></h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="post-slide2">
+                  <div class="post-content">
+                    <div class="ratio ratio-16x9">
+                      <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/PbEVwQdWdAQ" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loop="true" 
+                        style="border-radius: 10px">
+                      </iframe>
+                    </div>
+                    <div class="card-text">
+                      <span>Featured Video</span>
+                      <a aria-current="page" href="https://www.youtube.com/embed/PbEVwQdWdAQ">
+                        <h6><strong>Forensic science: An insider's guide</strong></h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+      <section>
+        <div class="container regional-news">
+          <div class="regional-title">
+              <h5 class="card-title">Regional <span>News</span></h5>
+          </div>
+          <div class="row regional-content">
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-1.jpg" class="card-img-top" alt="..." style="width:auto; height: 233px;">
+                <div class="content-photos">E&T</div>
+                <div class="card-body">
+                  <span><p class="card-text">E&T | February 27, 2023</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">Tiny Climbing Robot Inspired by Geckos and Inchworms</h6>
+                    <p class="card-text">A tiny robot that could one day help doctors perform surgery was inspired by the incredible gripping ability...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like" onclick="liked()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-2.jpg" class="card-img-top" alt="..." style="width:auto; height: 233px;">
+                <div class="content-photos">E&T</div>
+                <div class="card-body">
+                  <span><p class="card-text">E&T | March 1, 2023</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">AI Tool Helps Pick The Perfect Organs for Transplant</h6>
+                    <p class="card-text">Artificial intelligence (AI) can pick donor organs for transplant with much greater accuracy than humans...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like2" onclick="liked2()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn-2">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options-2">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-3.jpg" class="card-img-top" alt="..." style="width:auto; height: 233px;">
+                <div class="content-photos">Alex Wilkins</div>
+                <div class="card-body">
+                  <span><p class="card-text">Alex Wilkins | July 28, 2022</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">‘Artificial Synapse’ Could Make Neural Networks Work More Like Brains</h6>
+                    <p class="card-text">Networks of nanoscale resistors that work in a similar way to nerve cells in the body could offer...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like3" onclick="liked3()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn-3">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options-3">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row regional-content">
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-4.jpg" class="card-img-top" alt="..." style="width:350px; height: 233px;">
+                <div class="content-photos">Matthew Sparkes</div>
+                <div class="card-body">
+                  <span><p class="card-text">Matthew Sparkes | February 24, 2023</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">Tiny Throat Mic Can Detect and Broadcast Silently Mouthed Words</h6>
+                    <p class="card-text">A small patch worn on the throat can pick up even silently mouthed speech and broadcast it...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like4" onclick="liked4()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn-4">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options-4">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-5.jpg" class="card-img-top" alt="..." style="width:350px; height: 233px;">
+                <div class="content-photos">Jonathan Wilson</div>
+                <div class="card-body">
+                  <span><p class="card-text">Jonathan Wilson | March 1, 2023</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">‘Ultra-Early’ Wildfire Detection Network Installed in Spanish Forests</h6>
+                    <p class="card-text">A collaboration between mobile network Vodafone and Berlin-based environmental IoT startup Dryad...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like5" onclick="liked5()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn-5">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options-5">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow bg-body rounded" style="width: 22rem;">
+                <img src="D:\Py\Project_1\static\img\news-6.jpg" class="card-img-top" alt="..." style="width:350px; height: 233px;">
+                <div class="content-photos">E&T</div>
+                <div class="card-body">
+                  <span><p class="card-text">E&T | March 1, 2023</p></span>
+                  <a aria-current="page" href="#">
+                    <h6 class="card-title">Digital Treatments for Depression Conditionally Approved by NHS Body</h6>
+                    <p class="card-text">Around 40,000 people in the UK could be offered apps designed to help them treat conditions...</p>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <button class="like6" onclick="liked6()"><i class='bx bxs-like'></i></button>
+                  <button class="share-btn-6">
+                    <i class='bx bx-share-alt'></i>
+                  </button>
+                  <div class="share-options-6">
+                    <div class="share-social-media">
+                        <a class="button social-media-btn" href="https://api.whatsapp.com/send?phone=NomorTeleponWhatsApp&text=Halo!""><i class="fab fa-whatsapp"></i></a>
+                        <a class="button social-media-btn" ><i class="fab fa-instagram"></i></a>
+                        <a class="button social-media-btn" href="https://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"><i class="fab fa-twitter"></i></a>
+                        <a class="button social-media-btn" href="https://www.facebook.com/sharer/sharer.php?u=<URL>"><i class="fab fa-facebook"></i></a>
+                        <a class="button social-media-btn" href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="see-all">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">See All</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="container">
+        <div class="dont-miss-news-title">
+          <h5 class="card-title">Don't <span>Miss</span></h5>
+        </div>
+        <div class="row dont-miss-news">
+          <div class="col-md-7">
+              <div class="card bg-body">
+                <img src="D:\Py\Project_1\static\img\news-8.jpg" class="card-img-top" alt="..." style="width:auto; height: auto;">
+                <div class="content-photos">Humanware</div>
+                <div class="card-body">
+                  <a aria-current="page" href="#">
+                    <h4 class="card-title">Augmented Reality Headset Enables Users to See Hidden Objects</h4>
+                    <p class="card-text-writer"><span>Massachusetts Institute of Technology</span> March 1, 2023</p>
+                  </a>
+                  <div class="about-title">
+                    <p class="card-text">The headset combines computer vision and wireless perception to automatically locate a specific item that is hidden from view, perhaps inside a box or under a pile...</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 mb-5 dont-miss-side">
+              <a class="nav-link" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="D:\Py\Project_1\static\img\news-10.jpg" alt="...">
+                    </div>
+                    <div class="col-6">
+                      <div class="card-text">
+                        <h6>Entangled Atoms Cross Quantum Network From One Lab to Another</h6>
+                        <p class="card-text">Feb 2, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card p-3 mb-5 dont-miss-side">
+              <a class="nav-link" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="D:\Py\Project_1\static\img\news-11.jpg" alt="...">
+                    </div>
+                    <div class="col-6">
+                      <div class="card-text">
+                        <h6>Real or Fake Text? We Can Learn to Spot the Difference</h6>
+                        <p class="card-text">Feb 27, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card p-3 mb-5 dont-miss-side">
+              <a class="nav-link" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="D:\Py\Project_1\static\img\news-12.jpg" alt="...">
+                    </div>
+                    <div class="col-6">
+                      <div class="card-text">
+                        <h6>Artificial Intelligence Shows Potential for Solving Global Challenges</h6>
+                        <p class="card-text">Feb 27, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card p-3 mb-5 dont-miss-side">
+              <a class="nav-link" aria-current="page" href="#">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="D:\Py\Project_1\static\img\news-13.jpg" alt="...">
+                    </div>
+                    <div class="col-6">
+                      <div class="card-text">
+                        <h6>Quantum Physicists Make Major Nanoscopic Advance</h6>
+                        <p class="card-text">Jan 26, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="row detail9 row-cols-1 row-cols-md-1 g-4">
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 9px">
+                <strong>SCITECH FOR BETTER TOMORROW</strong>
+              </p>
+              <p class="card-text">
+                Technology is a science that will continue to grow, and so will
+                you
+              </p>
+              <p class="card-text">&copy 2023 Ansya Agatha</p>
+              <div class="row social-media">
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-facebook" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-instagram" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-linkedin" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1" style="padding: 1px">
+                  <div class="card">
+                    <div class="card-body" style="padding: 1px">
+                      <a class="nav-link" aria-current="page" href="#"
+                        ><i class="fa fa-twitter" style="color: #ffb703"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-text">Learn more</h6>
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="D:\Py\Project_1\index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="D:\Py\Project_1\templates\about.html"
+                >About us</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >Help</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-text">Support</h6>
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >FAQ</a
+              >
+              <a
+                class="nav-link"
+                style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                aria-current="page"
+                href="#"
+                >License</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h6>
+                <br />
+                <a
+                  class="nav-link"
+                  style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                  aria-current="page"
+                  href="#"
+                  >Terms of Service</a
+                >
+              </h6>
+              <h6>
+                <a
+                  class="nav-link"
+                  style="padding-left: 0px; padding-bottom: 3px; color: #212121"
+                  aria-current="page"
+                  href="#"
+                  >Privacy Policy</a
+                >
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/a993c5d899.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function(){
+        $("#videos-slider").owlCarousel({
+          items: 2,
+          itemsDesktop: [1199, 2],
+          itemsDesktopSmall: [980, 2],
+          itemsMobile: [600, 1],
+          pagination: false,
+          autoplayHoverPause:false,
+          video:true,
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:5000
+        });
+      });
+    </script>
+    <script src="D:\Py\Project_1\js\script.js"></script>
+  </body>
+</html>
