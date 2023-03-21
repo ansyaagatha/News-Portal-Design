@@ -298,11 +298,6 @@
           </div>
         </div>
       </div>
-      <div id="imageChange">
-        <h2>csdvbhhsd</h2>
-        <h2>csdvbhhsd</h2>
-        <h2>csdvbhhsd</h2>
-      </div>
     </main>
 
     <footer>
@@ -442,42 +437,6 @@
         </div>
       </div>
     </footer>
-
-    <div id="dvImage" style="background-size: cover">
-      <h2>ddvsd</h2>
-      <h2>ddvsd</h2>
-      <h2>ddvsd</h2>
-      <h2>ddvsd</h2>
-      <h2>ddvsd</h2>
-      <h2>ddvsd</h2>
-    </div>
-    <script
-      type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
-    ></script>
-    <script type="text/javascript">
-      var images = ["news-4.jpg", "news-3.jpg", "news-2.jpg", "news-1.jpg"];
-      $(function () {
-        var i = 0;
-        $("#dvImage").css(
-          "background-image",
-          "url(D:/Py/Project_1/static/img/" + images[i] + ")"
-        );
-        setInterval(function () {
-          i++;
-          if (i == images.length) {
-            i = 0;
-          }
-          $("#dvImage").fadeOut("slow", function () {
-            $(this).css(
-              "background-image",
-              "url(D:/Py/Project_1/static/img/" + images[i] + ")"
-            );
-            $(this).fadeIn("slow");
-          });
-        }, 4000);
-      });
-    </script>
 
     <script src="D:\Py\Project_1\js\script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
