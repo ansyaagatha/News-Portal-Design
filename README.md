@@ -1,19 +1,19 @@
 # News-Portal-Design
-Scitech For Better Tomorrow
-Website design for news portal
+This is my fake project to create a News Page using HTML, CSS, Bootstrap and a bit of Javascript. I named it Scitech For Better Tomorrow, because I carried the theme for information technology news.
+It's not completely finished, but you can see a bit.
 
 Main Page :
-![1](https://user-images.githubusercontent.com/77670162/227423872-95f2136c-dd40-4ee4-aee7-4556065aa978.PNG)
-![2](https://user-images.githubusercontent.com/77670162/227424124-3a04b935-c8e6-480f-8e2f-7b0596f7817e.PNG)
-![3](https://user-images.githubusercontent.com/77670162/227424132-b22d4514-5249-459a-a4ec-d6672878774c.PNG)
-![4](https://user-images.githubusercontent.com/77670162/227424137-9679a60e-9713-4e14-8f58-f34ef3349919.PNG)
-![5](https://user-images.githubusercontent.com/77670162/227424142-d0e8d51e-5a48-4a00-b92c-d92261825725.PNG)
+![Screenshot (96)](https://user-images.githubusercontent.com/77670162/229346557-69310701-6964-4169-b160-5044ffcfdead.png)
+![Screenshot (97)](https://user-images.githubusercontent.com/77670162/229346560-5f644412-1712-47e2-a48e-f630d2fabe2b.png)
+![Screenshot (98)](https://user-images.githubusercontent.com/77670162/229346562-5faa0e62-2214-437b-ad88-9ecbf09a94a7.png)
+![Screenshot (99)](https://user-images.githubusercontent.com/77670162/229346563-2056acbe-142e-42ec-9378-cad106863f5a.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/77670162/229346564-5e3b4a78-98cf-40b4-9e61-8d619e77309d.png)
+
 
 Knowledge Page :
-![1](https://user-images.githubusercontent.com/77670162/227424612-8c0f0522-4075-4428-a2f0-1015c49db9c6.PNG)
-![2](https://user-images.githubusercontent.com/77670162/227424617-2e769e06-aa20-448a-90ab-6d4dcca66666.PNG)
-![3](https://user-images.githubusercontent.com/77670162/227424623-a5a87ce6-6f9b-4494-8d81-bd027ba91fa3.PNG)
-![4](https://user-images.githubusercontent.com/77670162/227424629-255bd95f-4f38-4761-b5aa-4d6096505257.PNG)
-![5](https://user-images.githubusercontent.com/77670162/227424641-676b32a2-c0bf-4d8f-8db3-5555bc2d1788.PNG)
-![6](https://user-images.githubusercontent.com/77670162/227424649-f36e1cba-640a-4809-b31d-a7cf703adad0.PNG)
-![7](https://user-images.githubusercontent.com/77670162/227424654-841d02e2-e105-49ad-a083-8f9cdbedb39e.PNG)
+![Screenshot (88)](https://user-images.githubusercontent.com/77670162/229346583-07713ab8-36a1-4e11-9a81-256341979099.png)
+![Screenshot (89)](https://user-images.githubusercontent.com/77670162/229346586-377a9aaa-77e1-4713-8e3f-4b8123b3f99d.png)
+![Screenshot (90)](https://user-images.githubusercontent.com/77670162/229346587-09963380-5901-4ecf-9365-e3a593c39c3b.png)
+![Screenshot (91)](https://user-images.githubusercontent.com/77670162/229346589-c96bedd0-2d53-4dcc-b0a4-e5cdfe4de7be.png)
+![Screenshot (92)](https://user-images.githubusercontent.com/77670162/229346591-8db02c05-5398-4cba-bae5-f02d05d2d26c.png)
+![Screenshot (93)](https://user-images.githubusercontent.com/77670162/229346593-76ef48b9-d8a5-4586-990a-02e65c3f7234.png)
